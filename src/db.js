@@ -1,5 +1,5 @@
 // createpool se usa para un conjunto de conxiones
-import {createPool} from "mysql2";
+import {createPool} from "mysql2/promise";
 
 //Este codigo es equivalente a createconexion
 export const pool = createPool({
